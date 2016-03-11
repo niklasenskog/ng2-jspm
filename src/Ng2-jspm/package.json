@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot"
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.12.1"
+  }
+}
