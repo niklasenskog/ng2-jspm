@@ -1,11 +1,20 @@
 {
+  "devDependencies": {
+    "flatten": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.12.1",
+    "jspm": "^0.16.31",
+    "merge": "^1.2.0",
+    "typescript": "^1.8.7",
+    "typings": "^0.7.7"
+  },
   "jspm": {
     "directories": {
       "baseURL": "wwwroot"
     }
   },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^2.12.1"
-  }
+  "license": "UNLICENSED",
+  "name": "ng2-jspm",
+  "private": true,
+  "version": "1.0.0"
 }

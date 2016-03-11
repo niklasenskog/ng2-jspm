@@ -1,18 +1,14 @@
 {
     "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "noImplicitAny": false,
         "noEmitOnError": true,
         "removeComments": false,
-        "sourceMap": true,
-        "target": "es5"
-    },
-
-    "files": [
-        "wwwroot/app/main.ts"
-    ]
-    //,
-    //"exclude": [
-    //    "node_modules",
-    //    "wwwroot"
-    //]
+        "noExternalResolve": false,
+        "declarationFiles": true,
+        "target": "es5",
+        "module": "system",
+        "sourceMap": true
+    }
 }
